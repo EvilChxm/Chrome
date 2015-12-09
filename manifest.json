@@ -1,0 +1,26 @@
+﻿{
+    "manifest_version": 2,
+    "name": "m2o采集",
+    "version": "2.0",
+    "description": "m2o采集2.0版本",
+    "icons": {
+        "128": "38.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "19.png",
+            "38": "38.png"
+        },
+        "default_title": "m2o采集"
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "http://*/"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
